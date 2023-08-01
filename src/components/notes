@@ -1,0 +1,9 @@
+npm i react-toast-notifications - used for showing notifications such as error, success
+npm i react-toastify
+
+in single page authentication server provide a token which is included in header and is sent along with the request and is verified every time when a request is made. stateless method is used in spa
+
+jwt is json web token
+it consists of three parts separted by a . in between first part conatins the algo used to encrypt second part is payload which contains details and third part is signature done by the server and is used to examine whether the token is pampered or not.
+
+npm i jwt-decode is used to decode the token
